@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BounceCounter />
+        <BounceCounter countBy={20} lowerLimit={-1000} upperLimit={100}/>
       </header>
     </div>
   );
